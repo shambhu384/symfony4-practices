@@ -7,9 +7,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class FooController extends AbstractController implements TokenAuthenticatedController
 {
- 
     public function bar()
     {
-        return $this->json(['Hello World']);
+        return $this->json(['forEnterprise' => 'Symfony is best!!']);
     }
 }
