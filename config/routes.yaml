@@ -1,3 +1,4 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+sayhello:
+    path: /sayhello
+    controller: App\Controller\FooController::bar
+
